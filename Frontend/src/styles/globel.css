@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family:"sans-serif" ;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+nav {
+  background-color: #fdc600;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li  {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav ul li:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  color: #fdc600;
+}
+
+.container2 {
+  padding: 2rem;
+}
+.container h2{
+    font-size: 60px;
+    text-align: center;
+}
+.container p{
+    font-size: 30px;
+    text-align: center;
+}
+.dropdown{
+  height: 40px;
+}
+.dropdown2{
+  height: 40px;
+  margin-top: 5px;
+}
+.addEmployee{
+  height: 50px;
+  margin-left: 700px;
+  margin-top: 5px;
+  color: rgb(0, 0, 0);
+  background-color: #fdc600;
+  border-radius: 10px;
+}
+.addEmployee:hover{
+  background-color: #fdb100;
+  transform: scale(1.05); 
+}
+.edit{
+  height: 30px;
+  width: 100px;
+  color: rgb(0, 0, 0);
+  background-color: #fdc600;
+  border-radius: 8px;
+}
+.edit:hover{
+  background-color: #fdb100;
+  transform: scale(1.05); 
+}
+.delete{
+  height: 30px;
+  width: 100px;
+  margin-left: 10px;
+  color: rgb(0, 0, 0);
+  background-color: #fdc600;
+  border-radius: 8px;
+}
+.delete:hover{
+  background-color: #fdb100;
+  transform: scale(1.05); 
+}

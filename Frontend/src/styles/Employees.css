@@ -1,0 +1,75 @@
+table {
+    width:100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+background-color: #f9f9f9;
+}
+tr:hover {
+    background-color: #ddd;
+}
+.links{
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    gap: 20px;
+    color: white;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.links .home:hover{
+    color: white;
+}
+.links .allEmployees:hover{
+    color: white;
+}
+.links .engineering:hover{
+    color: white;
+}
+.links .marketing:hover{
+    color: white;
+}
+.links .finance:hover{
+    color: white;
+}
+.home{
+    color: black;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.allEmployees{
+    color: black;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    
+}
+.engineering{
+    color: black;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.marketing{
+    color: black;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.finance{
+    color: black;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+}
